@@ -2,8 +2,6 @@ package ru.x5.homework1;
 
 /*1. Ввести целое число в консоли и вывести на экран последнюю цифру введенного числа.*/
 
-import java.sql.Array;
-
 public class Main {
     public static void main(String[] args) {
         checkArray(args);
@@ -13,16 +11,16 @@ public class Main {
         System.out.println("Последняя цифра: " + str.charAt(str.length() - 1));
     }
 
-    private static void checkArray(String[] array){
-        if(array == null){
+    private static void checkArray(String[] array) {
+        if (array == null) {
             System.out.println("Отсутствуют исходные данные!");
             System.exit(1);
         }
-        if(array.length == 0){
+        if (array.length == 0) {
             System.out.println("Массив входных данных пуст!");
             System.exit(1);
         }
-        if(array.length > 1){
+        if (array.length > 1) {
             System.out.println("Задано больше одного числа!");
             System.exit(1);
         }
