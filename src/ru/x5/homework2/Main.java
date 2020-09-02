@@ -2,52 +2,30 @@ package ru.x5.homework2;
 
 /*2. Ввести целое трехзначное число в консоли и найти сумму цифр этого трехзначного числа*/
 
+import ru.x5.Service;
+
 public class Main {
     public static void main(String[] args) {
-        checkArray(args);
+        Service.checkArray(args);
         String str = args[0];
         System.out.println("Исходные данные: " + str);
-        checkString(str);
-        isNumeric(str);
+        checkLengthString(str, 3);
+        Service.isNumeric(str);
         char[] chars = str.toCharArray();
         int val = 0;
         for (char c : chars) {
             val += Character.getNumericValue(c);
         }
-        System.out.println("Сумма цифр: "+val);
+        System.out.println("Сумма цифр: " + val);
     }
 
-    private static void checkArray(String[] array) {
-        if (array == null) {
-            System.out.println("Отсутствуют исходные данные!");
+    public static void checkLengthString(String string, int i) {
+        if (string.length() > i) {
+            System.out.println("Задано больше " + i + " символов!");
             System.exit(1);
         }
-        if (array.length == 0) {
-            System.out.println("Массив входных данных пуст!");
-            System.exit(1);
-        }
-        if (array.length > 1) {
-            System.out.println("Задано больше одного числа!");
-            System.exit(1);
-        }
-    }
-
-    public static void checkString(String string) {
-        if (string.length() > 3) {
-            System.out.println("Задано больше трех символов!");
-            System.exit(1);
-        }
-        if (string.length() < 3) {
-            System.out.println("Задано меньше трех символов!");
-            System.exit(1);
-        }
-    }
-
-    private static void isNumeric(String strNum) {
-        try {
-            short s = Short.parseShort(strNum);
-        } catch (NumberFormatException | NullPointerException nfe) {
-            System.out.println("Строка не является целым числом!");
+        if (string.length() < i) {
+            System.out.println("Задано меньше " + i + " символов!");
             System.exit(1);
         }
     }
