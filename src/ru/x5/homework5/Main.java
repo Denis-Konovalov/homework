@@ -8,6 +8,9 @@ import ru.x5.Service;
 public class Main {
     public static void main(String[] args) {
         Service.checkArray(args, 3);
+        for (int i = 0; i < 3; i++) {
+            Service.isNumeric(args[i]);
+        }
         System.out.println("Исходные данные:");
         int val = Integer.parseInt(args[0]);
         for (int i = 0; i < 3; i++) {
