@@ -6,7 +6,7 @@ import ru.x5.Service;
 
 public class Main {
     public static void main(String[] args) {
-        Service.checkArray(args);
+        Service.checkArray(args, 1);
         String str = args[0];
         System.out.println("Исходные данные: " + str);
         checkLengthString(str, 3);
