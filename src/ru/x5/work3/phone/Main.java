@@ -14,9 +14,9 @@ public class Main {
         System.out.println(phoneNokia.getNumber());
         phoneLG.receiveCall("Петя");
         System.out.println(phoneLG.getNumber());
-        phoneNull.receiveCall("Вася","123");
-        phoneLG.receiveCall("Таня","111");
-        phoneNokia.receiveCall("Петя","222");
+        phoneNull.receiveCall("Вася", "123");
+        phoneLG.receiveCall("Таня", "111");
+        phoneNokia.receiveCall("Петя", "222");
         String[] numbers = {"123", "+7(999)777-43-23", "81230982323", "123456789", "89993332233", "7489320"};
         phoneNull.sendMessage(numbers);
     }

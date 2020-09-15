@@ -14,7 +14,7 @@ public class Phone {
     }
 
     Phone(String number, String model, Double weight) {
-        this(number,model);
+        this(number, model);
         this.weight = weight;
     }
 
@@ -30,8 +30,8 @@ public class Phone {
         this.receiveCall(name);
     }
 
-    public void sendMessage(String[] numbers){
-        for (String val: numbers){
+    public void sendMessage(String[] numbers) {
+        for (String val : numbers) {
             System.out.println(val);
         }
 
