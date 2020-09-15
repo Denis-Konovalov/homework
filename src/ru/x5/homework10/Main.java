@@ -10,13 +10,13 @@ public class Main {
         int[] input = {15, 10, 0, -6, -5, 3, 0, -34, 0, 32, 56, 0, 24, -52};
         int[] output = new int[input.length];
         System.out.println("Исходные данные: \n" + Arrays.toString(input));
-        for (int i = 0, j = 0; i < input.length; i++,j++) {
+        for (int i = 0, j = 0; i < input.length; i++, j++) {
             if (input[i] != 0) {
                 output[j] = input[i];
-            } else{
+            } else {
                 j--;
             }
         }
-        System.out.println("Результат: \n"+ Arrays.toString(output));
+        System.out.println("Результат: \n" + Arrays.toString(output));
     }
 }

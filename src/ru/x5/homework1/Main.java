@@ -6,10 +6,10 @@ import ru.x5.Service;
 
 public class Main {
     public static void main(String[] args) {
-        Service.checkArray(args, 1);
-        String str = args[0];
-        System.out.println("Исходные данные: " + str);
-        Service.isNumeric(str);
+        System.out.println("Введите целое число:");
+        int val = Service.scan();
+        System.out.println("Исходные данные: " + val);
+        String str = Integer.toString(val);
         System.out.println("Последняя цифра: " + str.charAt(str.length() - 1));
     }
 }

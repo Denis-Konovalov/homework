@@ -6,13 +6,13 @@ import ru.x5.Service;
 
 public class Main {
     public static void main(String[] args) {
-        Service.checkArray(args, 1);
-        String str = args[0];
-        System.out.println("Исходные данные: " + str);
+        System.out.println("Введите трехзначное число:");
+        int val = Service.scan();
+        System.out.println("Исходные данные: " + val);
+        String str = Integer.toString(val);
         checkLengthString(str, 3);
-        Service.isNumeric(str);
         char[] chars = str.toCharArray();
-        int val = 0;
+        val = 0;
         for (char c : chars) {
             val += Character.getNumericValue(c);
         }

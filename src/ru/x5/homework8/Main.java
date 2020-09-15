@@ -14,7 +14,7 @@ public class Main {
         System.out.println("- сумма положительных элементов = " + sumOfPositive(input));
         System.out.println("- сумму четных отрицательных элементов = " + sumOfEvenNegative(input));
         System.out.println("- количество положительных элементов = " + numberOfPositive(input));
-        System.out.println("- среднее арифметическое отрицательных элементов = "+averageOfNegative(input));
+        System.out.println("- среднее арифметическое отрицательных элементов = " + averageOfNegative(input));
     }
 
     public static int maximum(int[] array) {
