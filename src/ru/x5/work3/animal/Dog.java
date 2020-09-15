@@ -9,12 +9,12 @@ public class Dog extends Animal {
     String name;
 
     @Override
-    public void makeNoise(){
+    public void makeNoise() {
         System.out.println("Собака гавкает");
     }
 
     @Override
-    public void eat(){
+    public void eat() {
         System.out.println("Собака ест");
     }
 }
