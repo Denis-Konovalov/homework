@@ -39,11 +39,9 @@ public class Main {
 
     public static int sumOfEvenNegative(int[] array) {
         int sum = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] < 0) {
-                if (array[i] % 2 == 0) {
-                    sum += array[i];
-                }
+        for (int val : array) {
+            if (val < 0 && val % 2 == 0) {
+                sum += val;
             }
         }
         return sum;
