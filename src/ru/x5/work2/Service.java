@@ -1,4 +1,4 @@
-package ru.x5;
+package ru.x5.work2;
 
 import java.util.Scanner;
 

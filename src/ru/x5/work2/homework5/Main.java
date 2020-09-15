@@ -1,4 +1,4 @@
-package ru.x5.homework5;
+package ru.x5.work2.homework5;
 /*5. Ввести три целых числа с консоли. Вывести на экран наименьшее из них.*/
 
 import java.util.Scanner;

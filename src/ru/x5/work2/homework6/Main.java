@@ -1,9 +1,9 @@
-package ru.x5.homework6;
+package ru.x5.work2.homework6;
 
 /*6. Ввести целое число в консоли.
 Вывести его строку-описание вида «отрицательное четное число», «нулевое число»,  «положительное нечетное число» и т. д.*/
 
-import ru.x5.Service;
+import ru.x5.work2.Service;
 
 public class Main {
     public static void main(String[] args) {

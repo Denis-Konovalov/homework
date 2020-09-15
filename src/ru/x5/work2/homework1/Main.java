@@ -1,8 +1,8 @@
-package ru.x5.homework1;
+package ru.x5.work2.homework1;
 
 /*1. Ввести целое число в консоли и вывести на экран последнюю цифру введенного числа.*/
 
-import ru.x5.Service;
+import ru.x5.work2.Service;
 
 public class Main {
     public static void main(String[] args) {

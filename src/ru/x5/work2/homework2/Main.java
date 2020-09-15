@@ -1,8 +1,8 @@
-package ru.x5.homework2;
+package ru.x5.work2.homework2;
 
 /*2. Ввести целое трехзначное число в консоли и найти сумму цифр этого трехзначного числа*/
 
-import ru.x5.Service;
+import ru.x5.work2.Service;
 
 public class Main {
     public static void main(String[] args) {

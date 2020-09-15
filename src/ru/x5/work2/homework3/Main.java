@@ -1,10 +1,10 @@
-package ru.x5.homework3;
+package ru.x5.work2.homework3;
 
 /*3. Ввести целое число в консоли.
 Если оно является положительным, то прибавить к нему 1, в противном случае не изменять его.
 Вывести полученное число.*/
 
-import ru.x5.Service;
+import ru.x5.work2.Service;
 
 public class Main {
     public static void main(String[] args) {

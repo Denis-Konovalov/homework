@@ -1,6 +1,6 @@
-package ru.x5.homework4;
+package ru.x5.work2.homework4;
 
-import ru.x5.Service;
+import ru.x5.work2.Service;
 
 /*4. Ввести целое число в консоли.
 Если оно является положительным, то прибавить к нему 1;
