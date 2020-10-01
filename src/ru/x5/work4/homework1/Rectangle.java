@@ -1,7 +1,7 @@
 package ru.x5.work4.homework1;
 
 public class Rectangle implements Shape {
-    double a, b;
+    private double a, b;
 
     Rectangle(double a, double b) {
         this.a = a;

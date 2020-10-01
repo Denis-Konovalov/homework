@@ -3,7 +3,7 @@ package ru.x5.work4.homework1;
 import static java.lang.Math.sqrt;
 
 public class Triangle implements Shape {
-    double a, b, c;
+    private double a, b, c;
 
     Triangle(double a, double b, double c) {
         this.a = a;
