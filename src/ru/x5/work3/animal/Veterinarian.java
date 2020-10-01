@@ -6,8 +6,8 @@ package ru.x5.work3.animal;
 */
 
 public class Veterinarian {
-    void treatAnimal(Animal animal) {
-        System.out.println("Еда: " + animal.food);
-        System.out.println("Локация: " + animal.location);
+    public void treatAnimal(Animal animal) {
+        System.out.println("Еда: " + animal.getFood());
+        System.out.println("Локация: " + animal.getLocation());
     }
 }

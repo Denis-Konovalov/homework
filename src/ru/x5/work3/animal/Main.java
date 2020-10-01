@@ -6,7 +6,7 @@ package ru.x5.work3.animal;
 */
 public class Main {
     public static void main(String[] args) {
-        Animal[] animals = {new Cat(), new Dog(), new Horse()};
+        Animal[] animals = {new Cat("Рыба","Коробка"), new Dog("Кость","Будка"), new Horse("Трава","Стойло")};
         Veterinarian veterinarian = new Veterinarian();
         for (Animal animal : animals) {
             veterinarian.treatAnimal(animal);

@@ -6,7 +6,11 @@ package ru.x5.work3.animal;
 */
 
 public class Dog extends Animal {
-    String name;
+    private String name;
+
+    Dog(String food, String location) {
+        super(food, location);
+    }
 
     @Override
     public void makeNoise() {
